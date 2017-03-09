@@ -1,0 +1,263 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: "microsoft yahei";
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 900;
+    margin: 20px 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 30px;
+}
+
+aside h1 {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 20px 10px;
+}
+
+aside h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 30px;
+}
+
+.author {
+    font-size: 14px;
+    margin: 10px 30px;
+}
+
+.author time {
+    margin-left: 30px;
+}
+
+p {
+    margin: 10px 30px;
+    font-size: 18px;
+    text-indent: 2em;
+}
+
+img {
+    margin: 10px 30px;
+}
+
+header {
+    width: 100%;
+    background: #383434;
+    overflow: hidden;
+}
+
+header a {
+    float: left;
+}
+
+header a img {
+    height: 60px;
+}
+
+header ul {
+    line-height: 60px;
+    float: right;
+    margin-right: 30px;
+}
+
+header ul li {
+    float: left;
+    vertical-align: middle;
+    margin: auto 10px;
+    list-style: none;
+    color: #fff;
+}
+
+header ul li a {
+    color: #fff;
+}
+
+header ul li a:hover {
+    color: green;
+}
+
+main {
+    background: #BBB1B1;
+    overflow: hidden;
+}
+
+main section, aside section {
+    background: #fff;
+    margin: 30px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px #51514C;
+}
+
+#article2 ul {
+    margin: 10px 30px;
+    color: red;
+}
+
+#picture p {
+    text-indent: 0;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    border: 1px solid #000;
+    padding: 5px;
+    box-shadow: 5px 5px 5px #B3B3AE;
+    display: inline-block;
+}
+
+#picture p {
+    font-size: 15px;
+}
+
+#picture p img {
+    margin: 10px auto;
+    width: 95%;
+}
+
+#article3 ol {
+    margin: 10px 5em;
+    font-weight: bold;
+}
+
+#article3 table {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#article3 table th {
+    background: #000;
+    color: #fff;
+    font-weight: 800;
+}
+
+#article3 .total {
+    background: #9D9494;
+}
+
+aside {
+    float: right;
+    width: 450px;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+
+
+/*aside:before {
+    content: "";
+    display: block;
+}
+
+aside::after {
+    content: "";
+    display: block;
+    height: 0px;
+    clear: both;
+}*/
+
+.container {
+    background: #BBB1B1;
+}
+
+aside section {
+    border-radius: 10px;
+}
+
+aside form {
+    width: 100%;
+    margin: 10px auto;
+}
+
+aside div {
+    margin: 20px auto 20px 10%;
+}
+
+aside label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+aside span:before {
+    content: "";
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+.hobby {
+    margin: 0px;
+    margin-right: 20px;
+    line-height: 1.5em;
+    float: right;
+    width: 50%;
+}
+
+.hobby label {
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+}
+
+.clearfix:after {
+    content: "......";
+    display: block;
+    height: 0px;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+aside span {
+    display: block;
+    margin: 10px 4px;
+    color: #BCB2B2;
+}
+
+input[value="女"] {
+    margin-left: 30px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 95%;
+    padding: 5px;
+    font-size: 20px;
+    margin: 20px auto;
+    background: #48E481;
+    border-radius: 10px;
+}
+
+aside textarea {
+    vertical-align: top;
+    width: 50%;
+    height: 100px;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    height: 60px;
+    margin: 0px auto;
+}
+
+footer {
+    width: 100%;
+    overflow: hidden;
+}
+
+footer a, footer span {
+    margin-top: 10px;
+    display: inline-block;
+}
